@@ -1,7 +1,22 @@
 {
-    "orgName": "CI Example",
+    "orgName": "Rootstock ERP Lightning Native Experience",
     "edition": "Developer",
-    "orgPreferences" : {
-        "enabled": ["S1DesktopEnabled"]
+    "features": ["AddCustomApps:30","ContactsToMultipleAccounts"],
+    "settings": {
+      "languageSettings": {
+        "enableTranslationWorkbench": true
+      },
+      "lightningExperienceSettings": {
+        "enableS1DesktopEnabled": true
+      },
+      "quoteSettings": {
+        "enableQuote": true
+      },
+      "apexSettings": {
+        "enableCompileOnDeploy": true
+      },
+      "enhancedNotesSettings": {
+        "enableEnhancedNotes": true
+      }
     }
-}
+  } 
